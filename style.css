@@ -1,0 +1,19 @@
+body{
+ margin: 0;
+ padding:0;   
+}
+.boxes{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 0.5vh;
+  
+}
+.box{
+    background-color: brown;
+    border:1px solid gray;
+    padding: 40px;
+}
