@@ -10,16 +10,13 @@ function(){
     console.log(newbox);
     console.log(colorcode)
 
+    // -----Rondom color-------------
     symbols = "0123456789ABCDEF";
-
     color ="#";
-
     for(var j=0;j<6;j++){
-
     color = color + symbols[Math.floor(Math.random() * 16)];
-
     }
-
+    // --------------------------------
 
    document.getElementById(`box${i}`).style.backgroundColor=color;
    
